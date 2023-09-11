@@ -1,0 +1,33 @@
+.menu{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    background-color: rgba(98, 72, 72, 0);
+    list-style: none;
+    justify-content: space-between;
+}
+.menu li {
+    background-color: #f1f1f1;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    
+}
+
+h1{
+    color: blue;
+   
+}
+h2{
+    color:blue;
+}
+.buscador{
+    font: size 30px;
+    color: aqua;
+}
+body{
+    background-color: black;
+}
