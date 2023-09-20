@@ -1,4 +1,19 @@
-.menu{
+/* Establece la propiedad box-sizing en todos los elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: black;
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+}
+
+
+.menu {
     display: inline-flex;
     flex-wrap: nowrap;
     background-color: rgba(98, 72, 72, 0);
@@ -6,33 +21,48 @@
     justify-content: space-between;
 }
 
-.menu li {
-    background-color: #f1f1f1;
-    width: 250px;
-    margin: 10px;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
     padding: 10px;
-    
+    grid-gap: 20px; /* Espacio entre elementos de la cuadrícula */
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
     text-align: center;
-    line-height: 75px;
+    padding: 20px;
     font-size: 30px;
     
-}
-
-h1{
-    color: blue;
-    -webkit-text-stroke: 1px brown; 
-}
-
-h2{
-    color:blue;
     
 }
 
-.buscador{
-    font: size 30px;
+
+
+h1 {
+    color: blue;
+    -webkit-text-stroke: 1px brown;
+    font-size: 36px; /* Aumenta el tamaño del título para pantallas más grandes */
+}
+
+h2 {
+    color: blue;
+    font-size: 24px;
+}
+
+.buscador {
+    font-size: 30px;
     color: aqua;
 }
 
-body{
-    background-color: black;
+/* Estilos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Reduce el tamaño del título para pantallas más pequeñas */
+    }
+    h2 {
+        font-size: 18px;
+    }
 }
