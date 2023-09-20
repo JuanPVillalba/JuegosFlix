@@ -5,6 +5,7 @@
     list-style: none;
     justify-content: space-between;
 }
+
 .menu li {
     background-color: #f1f1f1;
     width: 250px;
@@ -19,15 +20,19 @@
 
 h1{
     color: blue;
-   
+    -webkit-text-stroke: 1px brown; 
 }
+
 h2{
     color:blue;
+    
 }
+
 .buscador{
     font: size 30px;
     color: aqua;
 }
+
 body{
     background-color: black;
 }
