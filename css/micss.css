@@ -6,10 +6,10 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    margin: 10;
-    padding: 10;
+    margin:10;
+    padding: 0;
     background-color: black;
-    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+    /*overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
 }
 
 
@@ -25,16 +25,16 @@ body {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     background-color: black;
-    padding: 10px;
-    grid-gap: 20px; /* Espacio entre elementos de la cuadrícula */
+    padding: 2px;
+    grid-gap: 10px; /* Espacio entre elementos de la cuadrícula */
 }
 
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
     text-align: center;
-    padding: 20px;
-    font-size: 30px;
+    padding: 2px;
+    font-size: 25px;
     
     
 }
