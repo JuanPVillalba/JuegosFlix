@@ -34,7 +34,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     padding: 2px;
     grid-gap: 10px; /* Espacio entre elementos de la cuadrícula */
 }
