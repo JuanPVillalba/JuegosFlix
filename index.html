@@ -5,74 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>juegosflix</title>
     <link rel="stylesheet" href="css/micss.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/e94dbdd428.js" crossorigin="anonymous"></script>
 
 </head>
 
-<body> 
+<body>
+    <div class="contenedor"> 
       
-    <header>
+        <header>
 
-        <video autoplay muted loop id="videoFondo">
-            <source src="./background/video fondo.mp4" type="video/mp4">
-            Tu navegador no admite videos HTML5.
-        </video>
+            <video autoplay muted loop id="videoFondo">
+                <source src="./background/video fondo.mp4" type="video/mp4">
+                Tu navegador no admite videos HTML5.
+            </video>
+
+            <center>
+                <h1>JuegosFlix</h1>
+                <h2>los mejores juegos los encontras aca</h2>
+            </center>
+        </header>
+
+        <main>
+            <center>
+                <form action="">
+                    <div class="google-search">
+                        <input id="buscar"     type="text" placeholder="Buscar juego ">
+                        <button type="submit"><i class="fas fa-search"></i> </button>
+                    </div>
+                </form>
+            </center>
+        </main>
+
+        <br>
 
         <center>
-        <h1>JuegosFlix</h1>
-        <h2>los mejores juegos los encontras aca</h2>
+            <section>
+                <img src="./img/gta.lpg.jpg" alt="GTA">
+                <img src="./img/mortal kombat.jpg" alt="Mortal kombat">
+                <img src="./img/super mario bros.jpg" alt="Super Mario bross">
+                <img src="./img/sonic.jpg" alt="Sonic">
+                <img src="./img/eart worm jim.jpg" alt="Earth Worm Jim">
+            </section>
         </center>
-    </header>
 
-    <main>
+        <br>
+
         <center>
-        <form action="">
-            <div class="google-search">
-                <input id="buscar" type="text" placeholder="Buscar juego ">
-                <button type="submit"><i class="fas fa-search"></i></button>
-            </div>
-        </form>
-        </center>
-    </main>
-<center>
-     <section>
-        <img src="./img/gta.lpg.jpg" alt="GTA">
-        <img src="./img/mortal kombat.jpg" alt="Mortal kombat">
-          <img src="./img/super mario bros.jpg" alt="Super Mario bross">
-          <img src="./img/sonic.jpg" alt="Sonic">
-          <img src="./img/eart worm jim.jpg" alt="Earth Worm Jim">
-    </section>
-</center>
+            <div class="grid-container">
 
-    <div class="grid-container">
+                <button class="my-button">
+                    <div class="grid-item"><a href="https://www.1001juegos.com/">juegos online</a></div>
+                </button>
 
-        <button class="my-button">
-            <div class="grid-item"><a href="https://www.1001juegos.com/">juegos online</a></div>
-        </button>
+                <button class="my-button">
+                    <div class="grid-item">juegos accion</div>
+                </button>
 
-        <button class="my-button">
-            <div class="grid-item">juegos accion</div>
-        </button>
-
-        <button class="my-button">
-            <div class="grid-item">juegos clasicos</div>
-        </button>
+                <button class="my-button">
+                    <div class="grid-item">juegos clasicos</div>
+                </button>
     
-        <button class="my-button">
-            <div class="grid-item">juegos de ingenio</div>
-        </button>
+                <button class="my-button">
+                    <div class="grid-item">juegos de ingenio</div>
+                </button>
 
-        <button class="my-button">
-            <div class="grid-item">juegos de aventura</div>
-        </button>
-       
+                <button class="my-button">
+                    <div class="grid-item">juegos de aventura</div>
+                </button>
+            </div> 
+        </center>
+
+        <footer>
+        <br>
+        <center>
+            <i class="fa-brands fa-facebook fa-2xl" style="color: #fafafa;"></i>
+            
+            <i class="fa-brands fa-threads fa-2xl" style="color: #fafafa;"></i>
+            
+            <i class="fa-brands fa-instagram fa-2xl" style="color: #f0f2f5;"></i>
+        </center>
+        </footer>
 
     </div>
-
-    <footer>
-
-    </footer>
-
 </body>
+
 
 </html>
