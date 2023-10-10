@@ -3,91 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>juegosflix</title>
-    <link rel="stylesheet" href="css/micss.css">
+    <link rel="stylesheet" href="./css/micss.css">
     <script src="https://kit.fontawesome.com/e94dbdd428.js" crossorigin="anonymous"></script>
-
+    <title>Document</title>
 </head>
-
 <body>
-    <div class="contenedor"> 
-      
-        <header>
+ <main id="algo">
 
-            <video autoplay muted loop id="videoFondo">
-                <source src="./background/video fondo.mp4" type="video/mp4">
-                Tu navegador no admite videos HTML5.
-            </video>
+    <h1>
+        JuegosFlix
+    </h1>
+    <h2>
+         Los mejores juegos los encontras acá
+    </h2>
+    <form action="buscador">
+        <div class="google-search">
+            <input id="buscar" type="text" placeholder="Buscar juego ">
+            <button type="submit"><i class="fas fa-search"></i> </button>
+        </div>
+    </form>
+   
+  <video muted autoplay loop>
+    <source src="./background/video fondo.mp4" type="video/mp4">
+  </video>
+  <br>
+  
+  <section>
+    <img src="./img/gta.lpg.jpg" alt="GTA">
+    <img src="./img/mortal kombat.jpg" alt="Mortal kombat">
+    <img src="./img/super mario bros.jpg" alt="Super Mario bross">
+    <img src="./img/sonic.jpg" alt="Sonic">
+    <img src="./img/eart worm jim.jpg" alt="Earth Worm Jim">
+  </section>
+  
+  <br>
+  <div class="grid-container">
 
-            <center>
-                <h1>JuegosFlix</h1>
-                <h2>los mejores juegos los encontras aca</h2>
-            </center>
-        </header>
+    <button class="my-button">
+        <div class="grid-item">DEPORTES</a></div>
+    </button>
 
-        <main>
-            <center>
-                <form action="">
-                    <div class="google-search">
-                        <input id="buscar"     type="text" placeholder="Buscar juego ">
-                        <button type="submit"><i class="fas fa-search"></i> </button>
-                    </div>
-                </form>
-            </center>
-        </main>
+    <button class="my-button">
+        <div class="grid-item">ACCION</div>
+    </button>
 
-        <br>
+    <button class="my-button">
+        <div class="grid-item">CLASICOS</div>
+    </button>
 
-        <center>
-            <section>
-                <img src="./img/gta.lpg.jpg" alt="GTA">
-                <img src="./img/mortal kombat.jpg" alt="Mortal kombat">
-                <img src="./img/super mario bros.jpg" alt="Super Mario bross">
-                <img src="./img/sonic.jpg" alt="Sonic">
-                <img src="./img/eart worm jim.jpg" alt="Earth Worm Jim">
-            </section>
-        </center>
+    <button class="my-button">
+        <div class="grid-item">INGENIO</div>
+    </button>
 
-        <br>
+    <button class="my-button">
+        <div class="grid-item">AVENTURA</div>
+    </button>
+</div> 
 
-        <center>
-            <div class="grid-container">
-
-                <button class="my-button">
-                    <div class="grid-item"><a href="https://www.1001juegos.com/">juegos online</a></div>
-                </button>
-
-                <button class="my-button">
-                    <div class="grid-item">juegos accion</div>
-                </button>
-
-                <button class="my-button">
-                    <div class="grid-item">juegos clasicos</div>
-                </button>
-    
-                <button class="my-button">
-                    <div class="grid-item">juegos de ingenio</div>
-                </button>
-
-                <button class="my-button">
-                    <div class="grid-item">juegos de aventura</div>
-                </button>
-            </div> 
-        </center>
-
-    <footer>
-        <br>
-        <center>
-            <i class="fa-brands fa-facebook fa-2xl" style="color: #fafafa;"></i>
+<footer>
+    <i class="fa-brands fa-facebook fa-2xl" style="color: #fafafa;"></i>
             
-            <i class="fa-brands fa-threads fa-2xl" style="color: #fafafa;"></i>
-            
-            <i class="fa-brands fa-instagram fa-2xl" style="color: #f0f2f5;"></i>
-        </center>
-    </footer>
+    <i class="fa-brands fa-threads fa-2xl" style="color: #fafafa;"></i>
 
-</div>
+     <i class="fa-brands fa-instagram fa-2xl" style="color: #f0f2f5;"></i>
+</footer>
+     
+ 
+ </main>   
 </body>
-
-
 </html>
