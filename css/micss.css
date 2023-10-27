@@ -15,18 +15,17 @@ video {
 }
 
 h1 {
-    justify-content: center;
-    text-align:center ;
+    margin: 0;
+    text-align: center;
     color: rgba(150, 140, 64, 0.633);
     -webkit-text-stroke: 1px brown;
-    font-size: 5.5vw;
+    font-size: 9vw;
 }
 
 h2 {
-    justify-content: center;
-    text-align:center ;
+    text-align:center;
     color: rgba(236, 242, 240, 0.582);
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .google-search {
@@ -37,7 +36,7 @@ h2 {
 }
 
 input {
-    width: 30%;
+    width: 40%;
 }
 
 section{ 
@@ -83,9 +82,8 @@ button {
     background: black;
     cursor: pointer;
     border: none;
-    padding: 2px 5px;
     color: azure;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: bold;
     position: relative;
     border-radius: 4px;
