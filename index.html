@@ -5,70 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/micss.css">
     <script src="https://kit.fontawesome.com/e94dbdd428.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./js/script.js"></script>
     <title>JuegosFlix</title>
 </head>
 <body>
- <main id="algo">
-
-    <h1>
-        JuegosFlix
-    </h1>
-    <h2>
-         Los mejores juegos los encontras acá
-    </h2>
-    <form action="buscador">
-        <div class="google-search">
-            <input id="buscar" type="text" placeholder="Buscar juego ">
-            <button type="submit"><i class="fas fa-search"></i> </button>
-        </div>
-    </form>
-   
-  <video muted autoplay loop>
-    <source src="./background/video fondo.mp4" type="video/mp4">
-  </video>
-  <br>
-  
-  <section>
-    <img src="./img/gta.lpg.jpg" alt="GTA">
-    <img src="./img/mortal kombat.jpg" alt="Mortal kombat">
-    <img src="./img/super mario bros.jpg" alt="Super Mario bross">
-    <img src="./img/sonic.jpg" alt="Sonic">
-    <img src="./img/eart worm jim.jpg" alt="Earth Worm Jim">
-  </section>
-  
-  <br>
-  <div class="grid-container">
-
-    <button class="my-button">
-        <div class="grid-item">DEPORTES</a></div>
-    </button>
-
-    <button class="my-button">
-        <div class="grid-item">ACCION</div>
-    </button>
-
-    <button onclick="clasicosButton()">
-        <div class="grid-item"><a href="pages/clasicos.html">CLASICOS</a></div>
-    </button>
-
-    <button class="my-button">
-        <div class="grid-item">INGENIO</div>
-    </button>
-
-    <button class="my-button">
-        <div class="grid-item">AVENTURA</div>
-    </button>
-</div> 
-
-<footer>
-    <i class="fa-brands fa-facebook fa-2xl" style="color: #fafafa;"></i>
-            
-    <i class="fa-brands fa-threads fa-2xl" style="color: #fafafa;"></i>
-
-     <i class="fa-brands fa-instagram fa-2xl" style="color: #f0f2f5;"></i>
-</footer>
-     
- 
- </main>   
+    <main id="algo">
+        <h1>
+            JuegosFlix
+        </h1>
+        <h2>
+            Los mejores juegos los encontras acá
+        </h2>
+        <form action="buscador">
+            <div class="google-search">
+                <input id="buscar" type="text" placeholder="Buscar juego ">
+                <button type="submit"><i class="fas fa-search"></i> </button>
+            </div>
+        </form>
+        <video muted autoplay loop>
+            <source src="./background/video fondo.mp4" type="video/mp4">
+        </video>
+        <br>
+        <section>
+            <img src="./img/gta.lpg.jpg" alt="GTA">
+            <img src="./img/mortal kombat.jpg" alt="Mortal kombat">
+            <img src="./img/super mario bros.jpg" alt="Super Mario bross">
+            <img src="./img/sonic.jpg" alt="Sonic">
+            <img src="./img/eart worm jim.jpg" alt="Earth Worm Jim">
+        </section>
+        <br>
+        <div class="grid-buttons">
+            <button class="my-button">
+                <div class="grid-item">DEPORTES</div>
+            </button>
+            <button onclick="accionButton()">
+                <div class="grid-item">ACCION</div>
+            </button>
+            <button onclick="clasicosButton()">
+                <div class="grid-item"><a href="pages/clasicos.html">CLASICOS</a></div>
+            </button>
+            <button class="my-button">
+                <div class="grid-item">INGENIO</div>
+            </button>
+            <button onclick="aventuraButton()">
+                <div class="grid-item">AVENTURA</div>
+            </button>
+        </div>    
+        </br>
+        <footer>
+            <i class="fa-brands fa-facebook fa-2xl" style="color: #fafafa;"></i>   
+            <i class="fa-brands fa-threads fa-2xl" style="color: #fafafa;"></i>
+            <i class="fa-brands fa-instagram fa-2xl" style="color: #f0f2f5;"></i>
+        </footer>
+    </main>
 </body>
 </html>

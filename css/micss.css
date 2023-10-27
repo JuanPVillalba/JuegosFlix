@@ -26,13 +26,18 @@ h2 {
     justify-content: center;
     text-align:center ;
     color: rgba(236, 242, 240, 0.582);
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .google-search {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
+}
+
+input {
+    width: 30%;
 }
 
 section{ 
@@ -57,17 +62,15 @@ section img:hover{
     opacity: 1;
     filter: contrast(120%);
 }
-.grid-container {
+.grid-buttons {
     display: grid;
     grid-template-columns: repeat(
-    auto-fit,minmax(150px,1fr)
-    );
+    auto-fit,minmax(150px,1fr));
     background-color: rgba(0, 0, 0, 0);
     padding: 2px;
     grid-gap: 10px;
-} 
-
-.grid-item {
+}
+.grid-item2 {
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid rgba(0, 0, 0, 0);
     text-align: center;
@@ -87,7 +90,6 @@ button {
     position: relative;
     border-radius: 4px;
 }
-
 
 button:hover::before {
 content: "";
