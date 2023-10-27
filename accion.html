@@ -9,7 +9,7 @@
     <script type="text/javascript" src="./js/script.js"></script>
     <title>Acción</title>
   </head>
-  <body>
+  <body onload="domLoaded()">
     <main id="algo">
         <h1>
             JuegosFlix
@@ -19,49 +19,24 @@
         </h2>
         <form action="buscador">
             <div class="google-search">
-                <input id="buscar" type="text" placeholder="Buscar juego ">
+                <input id="buscar" type="text" placeholder="Buscar juego" onkeyup="filtrar()">
                 <button type="submit"><i class="fas fa-search"></i> </button>
             </div>
         </form>
         <br>
-   	<video muted autoplay loop>
+    </main>
+    <video muted autoplay loop>
       <source src="./background/video fondo.mp4" type="video/mp4">
     </video>
-    <div class="grid-container">
-      <div class="grid-item">
-        <img src="./img/accion/imagen1.jpg" alt="Imagen 1">
-      </div>
-      <div class="grid-item">
-        <img src="./img/accion/imagen2.jpg" alt="Imagen 2">
-      </div>
-      <div class="grid-item">
-        <img src="./img/accion/imagen3.jpg" alt="Imagen 3">
-      </div>
-      <div class="grid-item">
-        <img src="./img/accion/imagen4.jpg" alt="Imagen 4">
-      </div>
-      <div class="grid-item">
-        <img src="./img/accion/imagen5.jpg" alt="Imagen 5">
-      </div>
-      <div class="grid-item">
-        <img src="./img/accion/imagen6.jpg" alt="Imagen 6">
-      </div>
-      <div class="grid-item">
-        <img src="./img/accion/imagen7.jpg" alt="Imagen 7">
-      </div>
-      <div class="grid-item">
-        <img src="./img/accion/imagen8.jpg" alt="Imagen 8">
-      </div>
-      <div class="grid-item">
-        <img src="./img/accion/imagen9.jpg" alt="Imagen 9">
-      </div>
+    <div id="container">
+      <!-- Parte Automatizada en el DOM -->
     </div>
     <div class="button-container">
     <button class="botonNav" onclick="prevButton()"> < </button>
     <button class="botonNav" onclick="nextButton()"> > </button>
     </div>
   </body>
-	<footer>
+  <footer>
     <i class="fa-brands fa-facebook fa-2xl" style="color: #fafafa;"></i>   
     <i class="fa-brands fa-threads fa-2xl" style="color: #fafafa;"></i>
     <i class="fa-brands fa-instagram fa-2xl" style="color: #f0f2f5;"></i>
