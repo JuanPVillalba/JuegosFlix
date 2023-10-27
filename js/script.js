@@ -2,6 +2,7 @@ function prevButton() { window.location.href = './index.html'; }
 function nextButton() { window.location.href = './index.html'; }
 function homeButton() { window.location.href = './index.html'; }
 function accionButton() { window.location.href = './accion.html'; }
+<<<<<<< HEAD
 function subirButton() { window.scrollTo({top: 0}) }
 
 const juegos = [
@@ -82,3 +83,7 @@ function agregarElementos() {
 
 function domLoaded() {document.addEventListener('DOMContentLoaded', agregarElementos())};
 
+=======
+function aventuraButton() { window.location.href = './aventura.html'; }
+function subirButton() { window.scrollTo({top: 0}) }
+>>>>>>> master
